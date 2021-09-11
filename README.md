@@ -15,4 +15,4 @@ This Node.JS program consolidates logs that happened on the same day. Consolidat
  - Type `node main.js <path>` to execute the program.
  - Replace `<path>` with the path to the folder that you'd like this program to run on.
  - You can do multiple `<path>` after `node main.js` if there are multiple folders you wish to have consolidated.
-  - Example: `node main.js <path1> <path2> <path3>`
+   - Example: `node main.js <path1> <path2> <path3>`

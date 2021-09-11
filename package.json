@@ -1,0 +1,25 @@
+{
+	"name": "paperlogs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "ts-node main.ts",
+		"build": "tsc main.ts",
+		"start": "node main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BlackAsLight/PaperLogs.git"
+	},
+	"author": "BlackAsLight",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BlackAsLight/PaperLogs/issues"
+	},
+	"homepage": "https://github.com/BlackAsLight/PaperLogs#readme",
+	"devDependencies": {
+		"ts-node": "^10.2.1",
+		"typescript": "^4.4.3"
+	}
+}

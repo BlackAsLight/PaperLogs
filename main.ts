@@ -34,9 +34,16 @@ console.log(`${args.length} Path${args.length == 1 ? 's' : ''} Provided.`);
 		}
 		console.log(`Logs sorted into ${Object.keys(days).length} days.`);
 
+		const keys = Object.keys(days);
+		for (const key of keys)
+			if (days[key].length == 1)
+				delete days[key];
+
+		console.log(`${Object.keys(days).length} Days to process.`);
+
 		for (const day in days) {
 			const count = days[day].length;
-			console.log(`Day, ${day}, has ${count} logs.${count == 1 ? ' Skipping...' : ''}`);
+			console.log(`Day, ${day}, has ${count} logs.`);
 			if (count == 1)
 				continue;
 
